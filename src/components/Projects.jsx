@@ -5,7 +5,6 @@ import Vizualization from "../assets/vizulization.png";
 import Orbitus from "../assets/orbitus.png";
 import MemeGen from "../assets/meme-gen.png";
 import Dictionary from "../assets/dictionary.png";
-import Country from '../assets/Country.png'
 import Crypto from '../assets/crypto.png'
 
 const projects = [
@@ -36,13 +35,7 @@ const projects = [
     github: "https://github.com/Avanimaletha/weather-app",
     LiveDemo: "https://weather-app-f5f1.vercel.app/",
   },
-  {
-    name: "Country-Guide",
-    technologies: "JavaScript ",
-    image: Country,
-    github: "https://github.com/Avanimaletha/Country-Guide",
-    LiveDemo: "https://country-guide-blue.vercel.app/",
-  },
+ 
   {
     name: "Live-Crypto",
     technologies: "JavaScript ",
