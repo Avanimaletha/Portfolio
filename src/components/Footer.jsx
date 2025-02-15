@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";     
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -9,7 +9,8 @@ const Footer = () => {
           <div className="flex-1 mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Avani</h3>
             <p className="text-gray-400">
-               Developer based in the India, specializing in web and Cloud Computing .
+              Developer based in the India, specializing in web and Cloud
+              Computing .
             </p>
           </div>
           <div className="flex-1 w-full">
@@ -23,7 +24,8 @@ const Footer = () => {
               <button
                 type="submit"
                 className="bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 
-py-2 rounded-r-lg">
+py-2 rounded-r-lg"
+              >
                 Subscribe
               </button>
             </form>
@@ -38,14 +40,22 @@ py-2 rounded-r-lg">
             &copy; {new Date().getFullYear()} Avani. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            
-            <a href="https://x.com/maletha_avani" className="text-gray-400 hover:text-white">
+            <a
+              href="https://x.com/maletha_avani"
+              className="text-gray-400 hover:text-white"
+            >
               <FaXTwitter />
             </a>
-            <a href="https://www.linkedin.com/in/avani-maletha-89b24624a/" className="text-gray-400 hover:text-white">
+            <a
+              href="https://www.linkedin.com/in/avani-maletha-89b24624a/"
+              className="text-gray-400 hover:text-white"
+            >
               <FaLinkedin />
             </a>
-            <a href="https://github.com/Avanimaletha" className="text-gray-400 hover:text-white">
+            <a
+              href="https://github.com/Avanimaletha"
+              className="text-gray-400 hover:text-white"
+            >
               <FaGithub />
             </a>
           </div>
