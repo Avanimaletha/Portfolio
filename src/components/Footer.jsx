@@ -21,13 +21,13 @@ const Footer = () => {
                 className="w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600 
                 focus:outline-none focus:border-green-400"
               />
-              <button
+             {/* <button
                 type="submit"
                 className="bg-gradient-to-r from-gray-600 to-gray-800 text-white px-4 
 py-2 rounded-r-lg"
               >
                 Subscribe
-              </button>
+              </button>*/}
             </form>
           </div>
         </div>

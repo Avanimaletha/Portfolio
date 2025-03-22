@@ -24,17 +24,17 @@ from-blue-400 to-blue-700 mb-4"
                 href="mailto:youremail@example.com"
                 className="hover:underline"
               >
-                avanimaletha@exmple.com
+                avanimaletha@gmail.com
               </a>
             </div>
             <div className="mb-4">
               <FaPhone className="inline-block text-green-400 mr-2"></FaPhone>
               <span>+91 8958483801</span>
             </div>
-            <div className="mb-4">
+           {/* <div className="mb-4">
               <FaMapMarkedAlt className="inline-block text-white-400 mr-2"></FaMapMarkedAlt>
               <span>xyz</span>
-            </div>
+            </div>*/}
           </div>
           <div className="flex-1 w-full">
             <form className="space-y-4">

@@ -24,7 +24,8 @@ const skills = [
   { icon: <FaCuttlefish className="text-indigo-500" /> },
   { icon: <SiCplusplus className="text-blue-500" /> },
   { icon: <FaPython className="text-yellow-400" /> },
-  { icon: <FaLinux className="text-white-500" /> },
+  { icon: <FaLinux className="text-yellow-500 stroke-white stroke-[1.5]" /> },
+
 ];
 
 const Skills = () => {

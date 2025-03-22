@@ -7,6 +7,7 @@ import MemeGen from "../assets/meme-gen.png";
 import Dictionary from "../assets/dictionary.png";
 import Crypto from '../assets/crypto.png'
 import Country from '../assets/country.png'
+import Linktree from '../assets/Linktree.png'
 const projects = [
   {
     name: " AWS-Vizualization",
@@ -62,6 +63,13 @@ const projects = [
     image: Dictionary,
     github: "https://github.com/Avanimaletha/Gemini-Clone",
     LiveDemo: "https://dictionary-app-delta-ochre.vercel.app/",
+  },
+  {
+    name: "Linktree-Clone",
+    technologies: "JavaScript ",
+    image: Linktree,
+    github: "https://github.com/Avanimaletha/Linktree",
+    LiveDemo: "https://vercel.com/avanimalethas-projects/linktree/9skd3s4wDgm81b8QTd1LNwHaChQM",
   },
 ];
 

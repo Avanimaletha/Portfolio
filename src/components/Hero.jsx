@@ -11,11 +11,16 @@ const Hero = () => {
     transition-transform duration-300 hover:scale-105"
       />
       <h1 className="text-4xl font-bold">
-        Hey!{" "}
+        Hey there!
+        <span
+          className="inline-block animate-wave"
+          style={{ display: "inline-block" }}
+        >
+          👋
+        </span>{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-400">
-          Avani Maletha{" "}
+          I’m Avani Maletha{" "}
         </span>
-        this side
       </h1>
       <p className="mt-4 text-lg text-gray-300">
         "I craft sleek, high-performance web applications with a focus on
@@ -37,9 +42,24 @@ const Hero = () => {
              from-gray-800 to-gray-900 text-white px-4 py-2 
              rounded-full mx-2"
         >
-          Download Resume
+          Resume
         </a>
       </div>
+      <style>
+        {`
+          @keyframes wave {
+            0% { transform: rotate(0deg); }
+            20% { transform: rotate(20deg); }
+            40% { transform: rotate(-10deg); }
+            60% { transform: rotate(10deg); }
+            80% { transform: rotate(-5deg); }
+            100% { transform: rotate(0deg); }
+          }
+          .animate-wave {
+            animation: wave 1.5s infinite;
+          }
+        `}
+      </style>
     </div>
   );
 };
