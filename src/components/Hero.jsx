@@ -27,17 +27,11 @@ const Hero = () => {
         responsiveness and modern design."
       </p>
       <div className="mt-8 space-x-4">
-        {/*<a 
-  href="mailto:avanimaletha@example.com" 
-  className="inline-block bg-gradient-to-r 
-             from-gray-800 to-gray-900 text-white px-4 py-2 
-             rounded-full mx-2">
-  Contact Me
-</a>*/}
+       
 
         <a
-          href="."
-          download
+          href="https://drive.google.com/file/d/1ior1Hv5qhD12Yd-I5pp27_QWWXqnXFUb/view?usp=sharing"
+          download="Avani_Maletha_Resume.pdf"
           className="inline-block bg-gradient-to-r 
              from-gray-800 to-gray-900 text-white px-4 py-2 
              rounded-full mx-2"

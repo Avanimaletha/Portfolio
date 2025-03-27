@@ -8,6 +8,9 @@ import Dictionary from "../assets/dictionary.png";
 import Crypto from '../assets/crypto.png'
 import Country from '../assets/country.png'
 import Linktree from '../assets/Linktree.png'
+import qr from '../assets/qr.png'
+import rockpaper from '../assets/rockpaper.png'
+import usability from '../assets/usability.png'
 const projects = [
   {
     name: " AWS-Vizualization",
@@ -50,6 +53,28 @@ const projects = [
     github: "https://github.com/Avanimaletha/live-crypto",
     LiveDemo: "https://live-crypto-one.vercel.app/",
   },
+  
+  {
+    name: "Usability-Hub",
+    technologies: "JavaScript ",
+    image: usability,
+    github: "https://github.com/Avanimaletha/Usability-Hub-",
+    LiveDemo: "https://usability-hub-eight-blush.vercel.app/#",
+  },
+  {
+    name: "QR-Code-Gen",
+    technologies: "React JS    Tailwind",
+    image: qr,
+    github: "https://github.com/Avanimaletha/QR-Code-Generator",
+    LiveDemo: "https://qr-code-generator-psi-one.vercel.app/",
+  },
+  {
+    name: "RocK-Paper-Scissor",
+    technologies: "JavaScript ",
+    image: rockpaper,
+    github: "https://github.com/Avanimaletha/Rock-Paper-Scissors",
+    LiveDemo: "https://rock-paper-scissors-7m9ck5sjh-avanimalethas-projects.vercel.app/",
+  },
   {
     name: "Meme-Gen",
     technologies: "JavaScript ",
@@ -57,6 +82,7 @@ const projects = [
     github: "https://github.com/Avanimaletha/Meme-gen",
     LiveDemo: "https://meme-gen-jade.vercel.app/",
   },
+  
   {
     name: "Dictionary",
     technologies: "JavaScript ",
@@ -69,7 +95,7 @@ const projects = [
     technologies: "JavaScript ",
     image: Linktree,
     github: "https://github.com/Avanimaletha/Linktree",
-    LiveDemo: "https://vercel.com/avanimalethas-projects/linktree/9skd3s4wDgm81b8QTd1LNwHaChQM",
+    LiveDemo: "https://linktree-pi-ashen.vercel.app/",
   },
 ];
 
