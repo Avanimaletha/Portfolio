@@ -17,6 +17,7 @@ const projects = [
     technologies: "AWS   S3   QuickSight",
     image: Vizualization,
     github: "https://github.com/Avanimaletha/AWS-Visualization-Quicksight",
+    LiveDemo: "/aws-demo.mp4"
   },
   {
     name: "Chat-AI",
