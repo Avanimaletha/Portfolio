@@ -30,7 +30,7 @@ const Hero = () => {
        
 
         <a
-          href="https://drive.google.com/file/d/1ior1Hv5qhD12Yd-I5pp27_QWWXqnXFUb/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ASfqAU9BDaJ72HVvkJmE6fygFeIozWQk/view?usp=sharing"
           download="Avani_Maletha_Resume.pdf"
           className="inline-block bg-gradient-to-r 
              from-gray-800 to-gray-900 text-white px-4 py-2 

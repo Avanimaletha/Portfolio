@@ -1,3 +1,5 @@
+{/*
+
 import React from "react";
 import { Code, Layout, Cloud, Database, Layers } from "lucide-react";
 
@@ -59,3 +61,4 @@ const Service = () => {
 };
 
 export default Service;
+*/}
